@@ -32,7 +32,7 @@
  - [ ] Move traefik stack from API to this repo
  - [ ] Deploy Loki, Promtail, and Grafana stack for log viewing
  - [ ] Deploy KeyCloak
- - [ ] Deploy (MiniIO)[https://min.io/]
+ - [ ] Deploy [MiniIO](https://min.io/)
  - [ ] Create actions for stack file changes
 
 ## API
