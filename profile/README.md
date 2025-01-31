@@ -43,6 +43,7 @@
 
 ## Web App
 
+ - [ ] Fix Repo secrets
  - [ ] Switch Auth to KeyCloak
  - [ ] Create a mobile friendly Notes Section
  - [ ] Add a warning when analyzing a note that has already been analyzed
