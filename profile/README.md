@@ -14,10 +14,9 @@
 
 |     | Repo |
 | -------- | ------- |
-| Docs  |  [Repo](https://github.com/VisNotes/visnotes-docs)  |
 | Web App | [Repo](https://github.com/JustinFay01/visnotes-react)     |
 | API    | [Repo](https://github.com/JustinFay01/visnotes-api)  |
-| Infrastructure | [Repo]() |
+| Infrastructure | [Repo](https://github.com/VisNotes/visnotes-infrastructure) |
 
 # Road Map
 
