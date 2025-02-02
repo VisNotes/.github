@@ -1,19 +1,8 @@
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
-
 # visnotes-docs
 
 |     | Repo |
 | -------- | ------- |
+| Docs   | [Repo](https://github.com/VisNotes/.github)  |
 | Web App | [Repo](https://github.com/JustinFay01/visnotes-react)     |
 | API    | [Repo](https://github.com/JustinFay01/visnotes-api)  |
 | Infrastructure | [Repo](https://github.com/VisNotes/visnotes-infrastructure) |
@@ -27,8 +16,9 @@
 
 ## Infrastructure
 
- - [ ] Create Repo
- - [ ] Move traefik stack from API to this repo
+ - [x] Create Repo
+ - [x] Move traefik stack from API to this repo
+ - [ ] VPS CrowdSec for Fail2Ban replacement
  - [ ] Deploy Loki, Promtail, and Grafana stack for log viewing
  - [ ] Deploy KeyCloak
  - [ ] Deploy [MiniIO](https://min.io/)
@@ -58,3 +48,25 @@
  - [ ] Clean up how updating files int he table connects to the word cloud
 
 
+# Modern React
+
+## Introduction
+
+This repo contains a set of opinionated guides that help you to build modern React applications with Vite. It is a collection of best practices that have been cultivated by the industry and the community. It is not a boilerplate or a template, but aims to provide the information you need to build a modern React application.
+
+It heavily focuses on integration with tools like ESLint, Prettier, TypeScript, and Vite. It also provides a set of recommended configurations for these tools.
+
+## The Docs
+
+- [Quick Start](../docs/react/quick-start.md)
+    - Get started with a new React + Vite + TypeScript project using create-vite.
+- [Best Practices](../docs/react/best-practices.md) 
+    - Learn about a set of theories that can help you build better React applications.
+    - Learn about the recommended tools for building React applications.
+    - Each section will lead you to to a configuration guide that also includes a set of recommended implementations.
+- [Project Structure](../docs/react/project-structure.md) 
+    - Learn about an easily maintainable project structure for React applications.
+- [Project Standards](../docs/react/project-standards.md) 
+    - Learn about the recommended tools that are used across the industry for building React applications.
+- [Package Managers](../docs/react/package-managers.md) 
+    - Learn about the recommended package managers for building React applications.
