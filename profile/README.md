@@ -18,7 +18,7 @@
 
  - [x] Create Repo
  - [x] Move traefik stack from API to this repo
- - [ ] VPS CrowdSec for Fail2Ban replacement
+ - [x] VPS CrowdSec for Fail2Ban replacement
  - [ ] Deploy Loki, Promtail, and Grafana stack for log viewing
  - [ ] Deploy KeyCloak
  - [ ] Deploy [MiniIO](https://min.io/)

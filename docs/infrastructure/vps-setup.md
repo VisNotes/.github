@@ -6,7 +6,7 @@ This document goes through the list of steps that I personally take.
 
 
 ## 1. Create a New User with Sudo Permissions
-```
+```bash
 # Log in as root
 ssh root@your-server-ip
 
@@ -23,7 +23,7 @@ sudo apt update
 
 
 ## 2. Set Up SSH Key Authentication
-```
+```bash
 # On your local machine, generate an SSH key pair if you don’t already have one
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
@@ -36,7 +36,7 @@ ssh newuser@your-server-ip
 
 ## 3. Harden SSH
 
-```
+```bash
 # Open SSH configuration file
 sudo nano /etc/ssh/sshd_config
 
@@ -52,7 +52,7 @@ ssh newuser@your-server-ip
 ```
 
 ## 4. Set Up a Firewall (UFW)
-```
+```bash
 # Install UFW if not already installed
 sudo apt install ufw
 
@@ -70,3 +70,22 @@ sudo ufw status
 
 ## 4. CrowdSec
 
+[CrowdSec](https://doc.crowdsec.net/u/getting_started) is a modernized, collaborative, and scalable security solution. It is a behavior-based security engine that continuously monitors your logs for malicious behavior.
+
+```bash
+curl -s https://install.crowdsec.net | sudo sh
+apt install crowdsec
+sudo apt install crowdsec-firewall-bouncer-iptables
+```
+
+### Check the status of the service
+
+```bash
+sudo systemctl status crowdsec
+```
+
+**View bans**
+
+```bash
+sudo cscli decisions list
+```
