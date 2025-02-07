@@ -75,7 +75,7 @@ cat ~/.ssh/id_ed25519.pub | clip
 cat ~/.ssh/id_ed25519.pub | xclip -selection clipboard
 
 # On Remote Machine
-echo `<public_key>` > ~/.ssh/authorized_keys
+echo '<public_key>' > ~/.ssh/authorized_keys
 ```
 5. Restrict deploy user to only use the docker command
 
