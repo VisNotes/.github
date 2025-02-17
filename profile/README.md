@@ -47,8 +47,8 @@
  - [ ] Update the Analysis view when selecting a note
  - [ ] Fix weird null condtion checks for analysis
  - [ ] Clean up how updating files int he table connects to the word cloud
-
-
+ - [ ] Remove duplicate source folder
+ 
 # Modern React
 
 ## Introduction
