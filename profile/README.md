@@ -20,21 +20,22 @@
  - [x] Move traefik stack from API to this repo
  - [x] VPS CrowdSec for Fail2Ban replacement
  - [ ] Deploy Loki, Promtail, and Grafana stack for log viewing
- - [ ] Deploy KeyCloak
+ ~~- [ ] Deploy KeyCloak~~  **Abandoned, became a roadblock for progress, using free tier of auth0 instead**
  - [ ] Deploy [MiniIO](https://min.io/)
  - [ ] Create actions for stack file changes
 
 ## API
 
- - [ ] Switch AUTH to KeyCloak
+ ~~- [ ] Switch AUTH to KeyCloak~~ **Abandoned, became a roadblock for progress, using free tier of auth0 instead**
  - [ ] Implement Read Repair for blob storage
  - [ ] Remove IFormFile from the Service Layer
+ - [ ] Add Users table
+ - [ ] Make a unique constraint for files that use a users id and the file name to prevent repeat files (and avoid calling the DB for existence check in the API)
 
 ## Web App
 
  - [x] Fix Repo secrets
- - [ ] Switch Auth to KeyCloak
- - [ ] Create a mobile friendly Notes Section
+~~- [ ] Create a mobile friendly Notes Section~~ **Abandoned, became a roadblock for progress, using free tier of auth0 instead**
  - [ ] Add a warning when analyzing a note that has already been analyzed
  - [ ] Add a button to generate a new word cloud instead of automatically generating it
  - [ ] Add a button to download the word cloud as different file types
